@@ -1,0 +1,24 @@
+@import "compass/reset";
+@import "compass/css3";
+
+
+.graph-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px;
+
+    > canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    border: solid 1px #999;
+}
+
+#ctrl {
+    > p {
+        display: inline-block;
+    }
+}
